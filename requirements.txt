@@ -1,0 +1,20 @@
+# ─────────────────────  Core AI stack  ─────────────────────
+pyautogen>=0.2.35          # main multi-agent framework
+openai<2.0,>=1.25          # official Python SDK (chat + assistants)
+tiktoken>=0.9              # fast tokeniser used by AutoGen
+flaml[automl]<3.0,>=2.3    # optional, silences the “flaml.automl” warnings
+
+# ──────────────────  Notebook / IDE extras  ─────────────────
+jupyterlab<5.0,>=4.1       # Lab UI (code-server handles VS Code)
+ipykernel>=6.29            # run notebooks inside the venv
+ipywidgets>=8.1            # interactive widgets
+
+# ───────────────  Dev & lint tools (optional)  ──────────────
+black==24.4.2
+isort==5.13.2
+ruff>=0.4                  # fast linter / formatter
+chromadb>=0.4,<0.5
+sentence-transformers==3.0.1
+pytest                     # for tests
+requests                   # for web search tool
+streamlit                  # for chat UI      # for chat UI

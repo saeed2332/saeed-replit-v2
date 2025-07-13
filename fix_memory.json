@@ -1,0 +1,6 @@
+[
+  {
+    "script": "crash.py",
+    "fix": "missing_var = None\n"
+  }
+]
