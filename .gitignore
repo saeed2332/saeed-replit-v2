@@ -4,3 +4,9 @@ __pycache__/
 .ipynb_checkpoints/
 new-workspace.jupyterlab-workspace
 *.egg-info/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+new-workspace.jupyterlab-workspace
+*.egg-info/
